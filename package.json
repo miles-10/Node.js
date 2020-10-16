@@ -1,24 +1,24 @@
 {
-  "name": "rest-api",
+  "name": "node.js",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Rest-API",
+  "main": "server.js",
   "scripts": {
-  "devStart": "nodemon server.js"
-   },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/miles-10/Node.js.git"
   },
-  "author": "Jenish Shrestha",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/miles-10/Node.js/issues"
   },
   "homepage": "https://github.com/miles-10/Node.js#readme",
-  "keywords": [],
-  "description": "",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.10.9"
+    "nodemon": "^2.0.5"
   }
 }
