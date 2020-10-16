@@ -1,0 +1,24 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miles-10/Node.js.git"
+  },
+  "author": "Jenish Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miles-10/Node.js/issues"
+  },
+  "homepage": "https://github.com/miles-10/Node.js#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9"
+  }
+}
